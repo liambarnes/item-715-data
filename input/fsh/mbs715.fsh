@@ -17,17 +17,17 @@ Relevant conditions to the 715 assessment.
 """
 * code 1..1
 
-Profile: AUItem715Allergy
+Profile: AUItem715AllergyIntollerance
 Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntolerance
-Id: AUItem715Allergy
+Id: AUItem715AllergyIntollerance
 Title: "AU Item 715 Allergy"
 Description: """
 Allergies and intolerances to review in the 715 assessment. 
 """
 
-Profile: AUItem715Medication
+Profile: AUItem715MedicationStatement
 Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicationStatement
-Id: AUItem715Medication
+Id: AUItem715MedicationStatement
 Title: "AU Item 715 Medication"
 Description: """
 Medications to review in the 715 assessment. 
@@ -45,38 +45,17 @@ Relevant family history to the 715 assessment.
 // Healthy eating
 // Physical activity
 
-Profile: AUItem715SmokingStatus
-Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareSmokingStatus
-Id: AUItem715SmokingStatus
-Title: "AU Item 715 Smoking Status"
-Description: """
-Smoking assessment to the 715 assessment. 
-"""
-
-Profile: AUItem715TobaccoSmokingDateCeased
-Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareTobaccoSmokingDateCeased
-Id: AUItem715TobaccoSmokingCeased
-Title: "AU Item 715 Smoking Date Ceased"
-Description: """
-Smoking ceased date to see how recently quitting smoking. 
-"""
+// Smoking Status - use primary care
+// Smoking Quit Date - use primary care
 
 // gambling
 // sexual health
 
-Profile: AUItem715Immunisation
-Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareImmunisation
-Id: AUItem715Immunisation
-Title: "AU Item 715 Immunisation"
-Description: """
-Immunisation to review in 715 assessment
-"""
-
+// immunisation - use primary care
 
 // eye health
 // ear health
 // oral dental health
-
 // cvd risk
 
 
