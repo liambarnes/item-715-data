@@ -1,6 +1,10 @@
-// This is a simple example of a FSH file.
-// This file can be renamed, and additional FSH files can be added.
-// SUSHI will look for definitions in any file using the .fsh ending.
-Profile: MyPatient
-Parent: Patient
-* name 1..* MS
+Profile: AUItem715Patient
+Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCarePatient
+Id: AUItem715Patient
+Title: "AU Item 715 Patient"
+Description: """
+Patient information required in 715 MBS Item form.
+"""
+
+* ^url = "https://aehrc.com/fhir/StructureDefinition/AUItem715Patient"
+* extension[http://hl7.org.au/fhir/StructureDefinition/closing-the-gap-registration] 0..1 MS

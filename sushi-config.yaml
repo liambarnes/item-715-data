@@ -10,6 +10,13 @@ version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2021+
 releaseLabel: ci-build
+publisher:
+  name: CSIRO
+  url: https://github.com/aehrc
+  email: Michael.Lawley@csiro.au 
+dependencies:
+  hl7.fhir.au.base: current
+  au.csiro.fhir.au-primarycare: current
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
