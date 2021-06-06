@@ -1,29 +1,10 @@
 
-Profile: AUItem715Encounter
-Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareEncounter
-Id: AUItem715Encounter
-Title: "AU Item 715 Encounter"
-Description: """
-Context of encounter where 715 assessment completed.
-"""
+// Encounter - use primary care
 
 
-Profile: AUItem715Condition
-Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareCondition
-Id: AUItem715Condition
-Title: "AU Item 715 Condition"
-Description: """
-Relevant conditions to the 715 assessment. 
-"""
-* code 1..1
+// Condition - use primary care
 
-Profile: AUItem715AllergyIntollerance
-Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntolerance
-Id: AUItem715AllergyIntollerance
-Title: "AU Item 715 Allergy"
-Description: """
-Allergies and intolerances to review in the 715 assessment. 
-"""
+// Allergy Intolerance - use primary care
 
 Profile: AUItem715MedicationStatement
 Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicationStatement
@@ -32,6 +13,8 @@ Title: "AU Item 715 Medication"
 Description: """
 Medications to review in the 715 assessment. 
 """
+* medication[x] 1..1 MS
+* dosage 1..1 MS
 
 Profile: AUItem715FamilyMemberHistory
 Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareFamilyMemberHistory

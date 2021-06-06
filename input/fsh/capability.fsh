@@ -26,11 +26,13 @@ Requirements for 715 form pre-poulation
 * rest.resource[0].interaction[0].extension[0].valueCode = #SHALL
 
 * rest.resource[1].type = #Condition
-* rest.resource[1].profile = "https://aehrc.com/fhir/item715/AUItem715Condition"
+* rest.resource[1].profile = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareCondition"
+* rest.resource[1].interaction[0].code = #read
 * rest.resource[1].interaction[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[1].interaction[0].extension[0].valueCode = #SHALL
 * rest.resource[1].interaction[1].code = #search-type
 * rest.resource[1].interaction[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[1].interaction[1].extension[0].valueCode = #SHALL
 * rest.resource[1].searchParam[0].name = "patient"
 * rest.resource[1].searchParam[0].definition = "http://hl7.org/fhir/SearchParameter/Condition-subject"
 * rest.resource[1].searchParam[0].type = #reference
@@ -71,7 +73,7 @@ Requirements for 715 form pre-poulation
 * rest.resource[3].searchParam[0].extension[0].valueCode = #SHALL
 
 * rest.resource[4].type = #AllergyIntolerance
-* rest.resource[4].profile = "https://aehrc.com/fhir/item715/AUItem715AllergyIntolerance"
+* rest.resource[4].profile = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAllergyIntolerance"
 * rest.resource[4].interaction[0].code = #read
 * rest.resource[4].interaction[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[4].interaction[0].extension[0].valueCode = #SHALL
@@ -135,7 +137,7 @@ Requirements for 715 form pre-poulation
 
 // obtain id from launch profile
 * rest.resource[8].type = #Encounter
-* rest.resource[8].profile = "https://aehrc.com/fhir/item715/AUItem715Encounter"
+* rest.resource[8].profile = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareEncounter"
 * rest.resource[8].interaction[0].code = #read
 * rest.resource[8].interaction[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[8].interaction[0].extension[0].valueCode = #SHALL
