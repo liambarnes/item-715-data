@@ -115,8 +115,8 @@ Requirements for 715 form pre-poulation
 * rest.resource[6].searchParam[0].extension[0].valueCode = #SHALL
 
 * rest.resource[7].type = #Observation
-* rest.resource[7].supportingProfie = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareSmokingStatus"
-* rest.resource[7].supportingProfie = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareTobaccoSmokingDateCeased"
+* rest.resource[7].supportedProfile = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareSmokingStatus"
+* rest.resource[7].supportedProfile = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareTobaccoSmokingDateCeased"
 * rest.resource[7].interaction[0].code = #read
 * rest.resource[7].interaction[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[7].interaction[0].extension[0].valueCode = #SHALL
