@@ -1,28 +1,14 @@
 
 // Encounter - use primary care
 
-
 // Condition - use primary care
 
 // Allergy Intolerance - use primary care
 
-Profile: AUItem715MedicationStatement
-Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareMedicationStatement
-Id: AUItem715MedicationStatement
-Title: "AU Item 715 Medication"
-Description: """
-Medications to review in the 715 assessment. 
-"""
-* medication[x] 1..1 MS
-* dosage 1..1 MS
+// Medication Statement - use primary care
 
-Profile: AUItem715FamilyMemberHistory
-Parent: https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareFamilyMemberHistory
-Id: AUItem715FamilyMemberHistory
-Title: "AU Item 715 Family History"
-Description: """
-Relevant family history to the 715 assessment. 
-"""
+// Family history - use primary care
+
 
 // Social and Wellbeing
 // Healthy eating
