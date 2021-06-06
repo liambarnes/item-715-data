@@ -7,7 +7,7 @@ Title: "715 Item Search Requirement"
 Usage: #definition
 * name = "AUITEM715SearchRequirement"
 * description = ""
-* rest.mode = #client
+* rest.mode = #server
 * rest.documentation = """
 Requirements for 715 form pre-poulation
 """
@@ -28,8 +28,13 @@ Requirements for 715 form pre-poulation
 * rest.resource[0].interaction[1].extension[0].valueCode = #SHALL
 * rest.resource[0].searchInclude = "*"
 * rest.resource[0].searchParam[0].name = "subject"
-* rest.resource[0].searchParam[0].definition = "http://hl7.org/fhir/SearchParameter/MeasureReport-subject"
+* rest.resource[0].searchParam[0].definition = "https://aehrc.com/fhir/item715/SearchParameter/Condition-subject"
 * rest.resource[0].searchParam[0].type = #reference
 * rest.resource[0].searchParam[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[0].searchParam[0].extension[0].valueCode = #SHALL
+* rest.resource[0].searchParam[1].name = "code"
+* rest.resource[0].searchParam[1].definition = "https://aehrc.com/fhir/item715/SearchParameter/Condition-code"
+* rest.resource[0].searchParam[1].type = #token
+* rest.resource[0].searchParam[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
+* rest.resource[0].searchParam[1].extension[0].valueCode = #SHALL
   
