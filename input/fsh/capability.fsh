@@ -6,11 +6,7 @@ InstanceOf: CapabilityStatement
 Title: "715 Item Search Requirement"
 Usage: #definition
 * name = "AUITEM715SearchRequirement"
-* description = ""
-* rest.mode = #server
-* rest.documentation = """
-Requirements for 715 form pre-poulation
-"""
+* description = "Requirements for MBS 715 item form pre-population."
 * status = #draft
 * experimental = true
 * date = "2021-06-06"
@@ -18,6 +14,16 @@ Requirements for 715 form pre-poulation
 * fhirVersion = #4.0.1
 * format[0] = #json
 * format[1] = #xml
+
+* rest.mode = #server
+* rest.documentation = """
+Requirements for 715 form pre-poulation
+"""
+
+* rest.security.cord = true
+* rest.security.service = http://terminology.hl7.org/CodeSystem/restful-security-service#SMART-on-FHIR
+* rest.security.description = "SMART App Launch supported to allow MBS form population"
+
 
 * rest.resource[0].type = #Patient
 * rest.resource[0].profile = "https://aehrc.com/fhir/item715/AUItem715Patient"
@@ -147,4 +153,8 @@ Requirements for 715 form pre-poulation
 * rest.resource[8].interaction[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[8].interaction[0].extension[0].valueCode = #SHALL
 
+* rest.resource[9].type = #Questionnaire
+* rest.resource[9].operation[0].name = "populate"
+* rest.resource[9].operation[0].definition ="http://hl7.org/fhir/uv/sdc/OperationDefinition/Questionnaire-populate" 
+* rest.resource[9].operation[0].documentation = "Population operation for referenced or supplied questionnaire"
   
