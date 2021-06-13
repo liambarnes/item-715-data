@@ -20,7 +20,7 @@ Usage: #definition
 Requirements for 715 form pre-poulation
 """
 
-* rest.security.cord = true
+* rest.security.cors = true
 * rest.security.service = http://terminology.hl7.org/CodeSystem/restful-security-service#SMART-on-FHIR
 * rest.security.description = "SMART App Launch supported to allow MBS form population"
 
@@ -155,6 +155,6 @@ Requirements for 715 form pre-poulation
 
 * rest.resource[9].type = #Questionnaire
 * rest.resource[9].operation[0].name = "populate"
-* rest.resource[9].operation[0].definition ="http://hl7.org/fhir/uv/sdc/OperationDefinition/Questionnaire-populate" 
+* rest.resource[9].operation[0].definition = "http://hl7.org/fhir/uv/sdc/OperationDefinition/Questionnaire-populate"
 * rest.resource[9].operation[0].documentation = "Population operation for referenced or supplied questionnaire"
   
