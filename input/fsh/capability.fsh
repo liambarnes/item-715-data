@@ -128,6 +128,8 @@ Requirements for 715 form pre-poulation
 * rest.resource[7].supportedProfile[4] = "http://hl7.org/fhir/StructureDefinition/bodyweight"
 * rest.resource[7].supportedProfile[5] = "http://hl7.org/fhir/StructureDefinition/heartrate"
 * rest.resource[7].supportedProfile[6] = "http://hl7.org/fhir/StructureDefinition/bmi"
+* rest.resource[7].supportedProfile[7] = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareWaistCircumference"
+* rest.resource[7].supportedProfile[8] = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareAbsoluteCVDRisk"
 * rest.resource[7].interaction[0].code = #read
 * rest.resource[7].interaction[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[7].interaction[0].extension[0].valueCode = #SHALL

@@ -9,11 +9,10 @@
 // Smoking Quit Date - use primary care
 // Height, Weight, Blood Pressure, BMI, HeartRate (Rhythm) - FHIR core 
 // Practitioner - use AU base
-
+// Observation - waist circumference - use primary care
+// Observation - CVD risk - use primarey care 
 
 // patient registered for NDIS
-
-// waist circumference
 // social and wellbeing
 // healthy eating
 // physical activity
@@ -22,7 +21,6 @@
 // eye health
 // ear health
 // oral dental health
-// cvd risk
 // memory and thinking
 // mood
 // skin
