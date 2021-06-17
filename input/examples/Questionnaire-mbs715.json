@@ -5,10 +5,7 @@
        "versionId":"76",
        "lastUpdated":"2020-02-28T00:05:13.0658075+00:00"
     },
-    "text":{
-       "status":"generated",
-       "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Aboriginal and Torres Strait Islander health check – Adults (25–49 years)</b><hr /><span style=\"color: gray;\">Status:</span> Active<br /><span style=\"color: gray;\">Publisher:</span> Telstra Health\r\n</div>"
-    },
+   
     "contained":[
        {
           "resourceType":"Bundle",
