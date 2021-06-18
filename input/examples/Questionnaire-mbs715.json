@@ -5,10 +5,7 @@
        "versionId":"76",
        "lastUpdated":"2020-02-28T00:05:13.0658075+00:00"
     },
-    "text":{
-       "status":"generated",
-       "div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>Aboriginal and Torres Strait Islander health check – Adults (25–49 years)</b><hr /><span style=\"color: gray;\">Status:</span> Active<br /></div>"
-    },
+   
     "contained":[
        {
           "resourceType":"Bundle",
@@ -1347,7 +1344,7 @@
                       "extension":[
                          {
                             "url":"http://hl7.org/fhir/StructureDefinition/questionnaire-instruction",
-                            "valueString":"https://auscvdrisk.com.au/risk-calculator/"
+                            "valueString":"auscvdrisk.com.au/risk-calculator/"
                          }
                       ],
                       "linkId":"09c2de87-614f-4e5c-a496-387cab577ae5",
@@ -1416,12 +1413,7 @@
                       "type":"text"
                    },
                    {
-                      "extension":[
-                         {
-                            "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-itemContext",
-                            "valueUrl":"http://aehrc.com/fhir/StructureDefinition/AUPrimaryCareFollowUp"
-                         }
-                      ],
+                      
                       "linkId":"a400fe69-c99f-47ed-bee1-083c3e4be467",
                       "text":"Recalls entered (eg clinical review, investigations, influenza vaccination, asthma plan/cycle of care, diabetes cycle of care, care plan review, cervical screening)",
                       "type":"group",
@@ -1437,7 +1429,7 @@
                                   "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
                                   "valueExpression":{
                                      "language":"text/fhirpath",
-                                     "expression":"'Patient/' + %LaunchPatient.id"
+                                     "expression": "%LaunchPatient.id"
                                   }
                                }
                             ],
