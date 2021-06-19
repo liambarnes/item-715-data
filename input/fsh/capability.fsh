@@ -64,7 +64,7 @@ Requirements for 715 form pre-poulation
 * rest.resource[2].searchParam[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[2].searchParam[0].extension[0].valueCode = #SHALL
 
-* rest.resource[3].type = #Immunisation
+* rest.resource[3].type = #Immunization
 * rest.resource[3].profile = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareImmunisation"
 * rest.resource[3].interaction[0].code = #read
 * rest.resource[3].interaction[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"

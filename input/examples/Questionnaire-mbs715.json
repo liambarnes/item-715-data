@@ -18,7 +18,49 @@
                    "method":"GET",
                    "url":"FamilyMemberHistory?patient={{%LaunchPatient.id}}"
                 }
-             }
+             },
+             {
+               "fullUrl":"urn:uuid:38a25157-b8e4-42e4-9525-7954fed52554",
+               "request":{
+                  "method":"GET",
+                  "url":"Observation?code=72166-2,8302-2,8280-0,29463-7,8867-4,39156-5,85354-9,72166-2,160625004,smoking-date-started,229819007,160573003,228308009,1373041000168105,160573003,60621009,absolute-cvd-risk&patient={{%LaunchPatient.id}}"
+               }
+            },
+            {
+              "fullUrl":"urn:uuid:38a25157-b8e4-42e4-9525-7954fed52555",
+              "request":{
+                 "method":"GET",
+                 "url":"Immunization?patient={{%LaunchPatient.id}}"
+              }
+           },
+           {
+             "fullUrl":"urn:uuid:38a25157-b8e4-42e4-9525-7954fed52556",
+             "request":{
+                "method":"GET",
+                "url":"MedicationStatement?patient={{%LaunchPatient.id}}"
+               }
+            },
+            {
+              "fullUrl":"urn:uuid:38a25157-b8e4-42e4-9525-7954fed52557",
+              "request":{
+                 "method":"GET",
+                 "url":"AllergyIntolerance?patient={{%LaunchPatient.id}}"
+                }
+             },
+             {
+               "fullUrl":"urn:uuid:38a25157-b8e4-42e4-9525-7954fed52558",
+               "request":{
+                  "method":"GET",
+                  "url":"DiagnosticReport?patient={{%LaunchPatient.id}}"
+                 }
+              },
+              {
+                "fullUrl":"urn:uuid:38a25157-b8e4-42e4-9525-7954fed52559",
+                "request":{
+                   "method":"GET",
+                   "url":"Condition?patient={{%LaunchPatient.id}}"
+                  }
+               }
           ]
        }
     ],
