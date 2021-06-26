@@ -30,15 +30,3 @@
 // haemoglobin 
 
 
-Profile: AUItem715DiagnosticReport
-Parent: http://hl7.org.au/fhir/StructureDefinition/au-diagnosticreport
-Id: AUItem715DiagnosticReport
-Title: "AU Item 715 Investigation"
-Description: """
-Investigation to review in 715 asessment
-"""
-* text 1..1 MS
-* status 1..1 MS
-* code 1..1 MS
-* effective[x] 1..1 MS
-* presentedForm MS

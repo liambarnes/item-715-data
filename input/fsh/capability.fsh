@@ -107,7 +107,7 @@ Requirements for 715 form pre-poulation
 * rest.resource[5].searchParam[0].extension[0].valueCode = #SHALL
 
 * rest.resource[6].type = #DiagnosticReport
-* rest.resource[6].profile = "https://aehrc.com/fhir/item715/AUItem715DiagnosticReport"
+* rest.resource[6].profile = "https://aehrc.com/fhir/StructureDefinition/AUPrimaryCareDiagnosticReport"
 * rest.resource[6].interaction[0].code = #read
 * rest.resource[6].interaction[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[6].interaction[0].extension[0].valueCode = #SHALL
