@@ -679,18 +679,38 @@
                ]
             },
             {
-               "linkId":"a5e9f87a-c561-4ffb-b200-9b93b8887d22",
-               "text":"Medical history and current problems",
-               "type":"group",
-               "repeats":true,
-               "item":[
-                  {
-                     "linkId":"3052a3b0-2635-4c59-a21a-7976905ff6d3",
-                     "text":"choice",
-                     "type":"open-choice",
-                     "answerValueSet":"https://r4.ontoserver.csiro.au/fhir/ValueSet/$expand?url=http://snomed.info/sct?fhir_vs=ecl/(%5E%2032570071000036102%20OR%20%5E%2032570141000036105)&count=100&"
-                  }
-               ]
+                    
+                    "linkId": "a5e9f87a-c561-4ffb-b200-9b93b8887d22",
+                    "text": "Medical history and current problems",
+                    "type": "group",
+                     "extension":[
+                                    {
+                                        "url":"http://hl7.org/fhir/StructureDefinition/variable",
+                                        "valueExpression":{
+                                            "name" : "conditions",
+                                            "language":"text/fhirpath",
+                                            "expression":"%PrePopQuery.entry[21].resource.entry.resource.code"
+                                        }
+                                    }
+                                ],
+                    
+                    "item": [
+                        {
+                            "linkId": "a5e9f87a-c561-4ffb-b200-9b93b8887a11",
+                            "text": "item",
+                            "type": "text",
+                            "repeats" : true,
+                            "extension":[
+                            {
+                                "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
+                                "valueExpression":{
+                                    "language":"text/fhirpath",
+                                    "expression":"%PrePopQuery.entry[21].resource.entry.resource.code.text.join('\r\n')"                         
+                                }
+                            }
+                            ]
+                        }
+                    ]
             },
             {
                "linkId":"d8475eb8-662b-4081-9ded-4ab2654ffe90",
@@ -766,8 +786,8 @@
                            "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
                            "valueExpression":{
                               "language":"text/fhirpath",
-                              "expression":"%PrePopQuery.entry[0].resource.entry.resource.select(relationship.coding.display + ' ' + condition.code.coding.display)"                         
-                            }
+                              "expression":"%PrePopQuery.entry[0].resource.entry.resource.select(relationship.coding.display + ' - ' + condition.code.coding.display).join('\r\n')"                         
+                         }
                         }
                      ],
                      "linkId":"cfdc0b14-7271-4145-b57a-9c1faffd6516",
@@ -1478,37 +1498,85 @@
                "repeats":false,
                "item":[
                   {
-                     "linkId":"29644716-433e-45ec-a805-8043f35a85e1",
-                     "code":[
+                      "extension":[
                         {
-                           "system":"http://loinc.org",
-                           "code":"8302-2"
+                           "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
+                           "valueExpression":{
+                              "language":"text/fhirpath",
+                              "expression":"%PrePopQuery.entry[2].resource.entry.resource.value.value"                         
+                         }
                         }
                      ],
+                     "linkId":"29644716-433e-45ec-a805-8043f35a85e1",
                      "text":"Height (cm)",
-                     "type":"integer"
+                     "type":"decimal"
                   },
                   {
+                      "extension":[
+                        {
+                           "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
+                           "valueExpression":{
+                              "language":"text/fhirpath",
+                              "expression":"%PrePopQuery.entry[3].resource.entry.resource.value.value"                         
+                         }
+                        }
+                     ],
                      "linkId":"f5308669-d1f9-49a1-bedd-7420946e7288",
                      "text":"Weight (kg)",
                      "type":"decimal"
                   },
                   {
+                      "extension":[
+                        {
+                           "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
+                           "valueExpression":{
+                              "language":"text/fhirpath",
+                              "expression":"%PrePopQuery.entry[6].resource.entry.resource.value.value"                         
+                         }
+                        }
+                     ],
                      "linkId":"d9306be3-fedf-45ca-8b91-71e6f7f6c6f5",
                      "text":"BMI (kg/^2)",
                      "type":"decimal"
                   },
                   {
+                      "extension":[
+                        {
+                           "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
+                           "valueExpression":{
+                              "language":"text/fhirpath",
+                              "expression":"%PrePopQuery.entry[3].resource.entry.resource.value.value"                         
+                         }
+                        }
+                     ],
                      "linkId":"aadc1e74-8523-41e4-beaf-a4487bf79606",
                      "text":"Waist circumference (cm)",
                      "type":"decimal"
                   },
                   {
+                       "extension":[
+                        {
+                           "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
+                           "valueExpression":{
+                              "language":"text/fhirpath",
+                              "expression":"%PrePopQuery.entry.resource.entry[8].resource.select(component[0].value.select(value.toString()) + '/' + component[1].value.select(value.toString()) )"                         
+                         }
+                        }
+                     ],
                      "linkId":"8b2f93a9-564f-4229-9522-2a4e145badc9",
                      "text":"Blood pressure",
                      "type":"string"
                   },
                   {
+                      "extension":[
+                        {
+                           "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
+                           "valueExpression":{
+                              "language":"text/fhirpath",
+                              "expression":"%PrePopQuery.entry[5].resource.entry.resource.value.value"                         
+                         }
+                        }
+                     ],
                      "linkId":"0c6fe11b-1fd4-482f-a805-d17aef2b8d6b",
                      "text":"Heart rate",
                      "type":"decimal"
