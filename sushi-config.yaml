@@ -24,6 +24,6 @@ dependencies:
 menu:
   Home: index.html
   Artifacts: artifacts.html
-  Capability Statement: CapabilityStatement-AUItem715SearchRequirementNarrative.html
+  Capability: CapabilityStatement-AUItem715SearchRequirementDescription.html
   MBS 715 Form: Questionnaire-mbs715.html
 
