@@ -138,11 +138,18 @@
                     </td>
                   </tr>
                 </xsl:if>
-                <xsl:if test="profile/@value">
+                <xsl:if test="profile/@value or supportedProfile/@value">
                   <tr>
                     <th>Supported profiles:</th>
                     <td>
                       <xsl:for-each select="profile/@value">
+                        <p>
+                          <a href="{.}.html">
+                            <xsl:value-of select="."/>
+                          </a>
+                        </p>
+                      </xsl:for-each>
+                       <xsl:for-each select="supportedProfile/@value">
                         <p>
                           <a href="{.}.html">
                             <xsl:value-of select="."/>
@@ -306,9 +313,18 @@
                   </a>
                 </p>
               </xsl:for-each>
+              <xsl:for-each select="supportedProfile/@value">
+                <p>
+                  <xsl:text>Supported Profile: </xsl:text>
+                  <a href="{.}.html">
+                    <xsl:value-of select="."/>
+                  </a>
+                </p>
+              </xsl:for-each>
               <xsl:copy-of select="fn:handleMarkdownLines(description/@value)">
                 <!-- This doesn't exist yet -->
               </xsl:copy-of>
+              <!--
               <h4>Interactions</h4>
               <div class="table-wrapper">
                 <table class="list">
@@ -329,6 +345,7 @@
                 </tbody>
               </table>
               </div>
+              -->
               <xsl:if test="searchInclude or searchParam">
                 <h4>Search</h4>
                 <xsl:if test="searchInclude">
