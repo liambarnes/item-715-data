@@ -116,12 +116,14 @@
             <div class="table-wrapper">
               <table>
               <tbody>
+                <!--
                 <xsl:for-each select="fhirVersion/@value">
                   <tr>
                     <th>FHIR Version:</th>
                     <td>$ver$</td>
                   </tr>
                 </xsl:for-each>
+                 -->
                 <xsl:for-each select="acceptnknown/@value">
                   <tr>
                     <th>Accepts elements from future versions:</th>
@@ -498,7 +500,11 @@
             <th>Conformance</th>
           </xsl:if>
           <th>Type</th>
-          <th>Definition &amp; Chaining</th>
+          <th>
+          <xsl:if test="definition/@value">
+            Definition
+          </xsl:if>
+          </th>
         </tr>
       </thead>
       <tbody>

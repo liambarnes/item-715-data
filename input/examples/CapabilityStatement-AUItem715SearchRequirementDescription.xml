@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CapabilityStatement xmlns="http://hl7.org/fhir">
-   <id value="AUItem715SearchRequirementA"/>
+   <id value="AUItem715SearchRequirementDescription"/>
    <text>
       <status value="generated"/>
       <div xmlns="http://www.w3.org/1999/xhtml">
@@ -14,10 +14,6 @@
          <div class="table-wrapper">
             <table>
                <tbody>
-                  <tr>
-                     <th>FHIR Version:</th>
-                     <td>$ver$</td>
-                  </tr>
                   <tr>
                      <th>Supported formats:</th>
                      <td>json, xml</td>
@@ -182,7 +178,7 @@
                   <tr>
                      <th>Parameter</th>
                      <th>Type</th>
-                     <th>Definition &amp; Chaining</th>
+                     <th/>
                   </tr>
                </thead>
                <tbody>
@@ -213,7 +209,7 @@
                   <tr>
                      <th>Parameter</th>
                      <th>Type</th>
-                     <th>Definition &amp; Chaining</th>
+                     <th/>
                   </tr>
                </thead>
                <tbody>
@@ -239,7 +235,7 @@
                   <tr>
                      <th>Parameter</th>
                      <th>Type</th>
-                     <th>Definition &amp; Chaining</th>
+                     <th/>
                   </tr>
                </thead>
                <tbody>
@@ -265,7 +261,7 @@
                   <tr>
                      <th>Parameter</th>
                      <th>Type</th>
-                     <th>Definition &amp; Chaining</th>
+                     <th/>
                   </tr>
                </thead>
                <tbody>
@@ -291,7 +287,7 @@
                   <tr>
                      <th>Parameter</th>
                      <th>Type</th>
-                     <th>Definition &amp; Chaining</th>
+                     <th/>
                   </tr>
                </thead>
                <tbody>
@@ -317,7 +313,7 @@
                   <tr>
                      <th>Parameter</th>
                      <th>Type</th>
-                     <th>Definition &amp; Chaining</th>
+                     <th/>
                   </tr>
                </thead>
                <tbody>
@@ -359,7 +355,7 @@
                   <tr>
                      <th>Parameter</th>
                      <th>Type</th>
-                     <th>Definition &amp; Chaining</th>
+                     <th/>
                   </tr>
                </thead>
                <tbody>
