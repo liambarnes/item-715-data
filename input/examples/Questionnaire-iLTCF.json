@@ -1,9 +1,5 @@
 {
    "id": "iLTCF",
-   "meta": {
-     "versionId": "0.0.1",
-     "lastUpdated": "2020-02-26T06:41:33.479Z"
-   },
    "version": "0.0.1",
    "status": "draft",
    "name": "interRAI Long-Term Care Facilities Assessment Form",
@@ -12,18 +8,13 @@
    "item": [
      {
        "type": "group",
-       "code": [],
        "required": false,
        "linkId": "A",
        "text": "SECTION A. Identification Information",
        "item": [
          {
-           "type": "group",
-           "code": [
-             {
-               "code": "iA1",
-               "display": "Name"
-             }
+           "type": "group"
+          
            ],
            "required": false,
            "linkId": "iA1",
@@ -31,48 +22,26 @@
            "item": [
              {
                "type": "string",
-               "code": [
-                 {
-                   "code": "iA1a",
-                   "display": "a. First"
-                 }
-               ],
                "required": false,
                "linkId": "iA1a",
                "text": "a. First"
              },
              {
                "type": "string",
-               "code": [
-                 {
-                   "code": "iA1b",
-                   "display": "b. Middle"
-                 }
-               ],
                "required": false,
                "linkId": "iA1b",
                "text": "b. Middle"
              },
              {
                "type": "string",
-               "code": [
-                 {
-                   "code": "iA1c",
-                   "display": "c. Last"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iA1c",
                "text": "c. Last"
              },
              {
                "type": "string",
-               "code": [
-                 {
-                   "code": "iA1d",
-                   "display": "d. Title"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iA1d",
                "text": "d. Title"
@@ -81,12 +50,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iA2",
-               "display": "Gender"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -122,24 +86,14 @@
          },
          {
            "type": "date",
-           "code": [
-             {
-               "code": "iA3",
-               "display": "BirthDate"
-             }
-           ],
+          
            "required": false,
            "linkId": "iA3",
            "text": "BirthDate"
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iA4",
-               "display": "Marital Status"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -199,12 +153,7 @@
          },
          {
            "type": "string",
-           "code": [
-             {
-               "code": "iA5a",
-               "display": "National Numeric Identifier"
-             }
-           ],
+         
            "required": false,
            "linkId": "iA5a",
            "text": "National Numeric Identifier"
@@ -593,12 +542,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iA11a",
-               "display": "Admitted from"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1103,12 +1047,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iB5c",
-                   "display": "d. Psychiatric hospital or unit"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1798,12 +1737,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iC4",
-               "display": "Acute change in mental status from person's usual functioning"
-             }
-           ],
+           
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4562,12 +4496,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2c",
-                   "display": "c. Dressing upper body"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9638,12 +9567,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK4b",
-                   "display": "b. Has broken, fragmented, loose, or otherwise nonintact natural teeth"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13204,16 +13128,7 @@
                "item": [
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3jc",
-                       "display": "Functional rehabilitation - days treatment scheduled"
-                     },
-                     {
-                       "code": "iN3ec",
-                       "display": "Physical therapy - days treatment scheduled"
-                     }
-                   ],
+                   
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -13385,12 +13300,7 @@
              },
              {
                "type": "integer",
-               "code": [
-                 {
-                   "code": "iN5b",
-                   "display": "b. Emergency room / department visit (not counting overnight stay)"
-                 }
-               ],
+
                "required": false,
                "linkId": "iN5b",
                "text": "b. Emergency room / department visit (not counting overnight stay)"
@@ -13399,12 +13309,7 @@
          },
          {
            "type": "integer",
-           "code": [
-             {
-               "code": "iN7",
-               "display": "Physician visits"
-             }
-           ],
+
            "required": false,
            "linkId": "iN7",
            "text": "Physician visits"
@@ -13423,12 +13328,7 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iN6",
-               "display": "Restrictive devices"
-             }
-           ],
+
            "required": false,
            "linkId": "iN6",
            "text": "Restrictive devices",
@@ -13500,12 +13400,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN6b",
-                   "display": "b. Trunk restraint"
-                 }
-               ],
+
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13565,12 +13460,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN6c",
-                   "display": "c. Chair prevents rising"
-                 }
-               ],
+   
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13634,36 +13524,21 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iO",
-           "display": "SECTION P. Responsibility and Directives"
-         }
-       ],
+
        "required": false,
        "linkId": "iO",
        "text": "SECTION P. Responsibility and Directives",
        "item": [
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iO2",
-               "display": "Advance Directives"
-             }
-           ],
+          
            "required": false,
            "linkId": "iO2",
            "text": "Advance Directives",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO2a",
-                   "display": "a. Advance directives for not resuscitating"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13699,16 +13574,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO2b",
-                   "display": "b. Advance directives for not intubating"
-                 },
-                 {
-                   "code": "iO2a",
-                   "display": "a. Advance directives for not resuscitating"
-                 }
-               ],
+               
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13744,16 +13610,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO2c",
-                   "display": "c. Advance directives for not hospitalizing"
-                 },
-                 {
-                   "code": "iO2a",
-                   "display": "a. Advance directives for not resuscitating"
-                 }
-               ],
+               
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13789,16 +13646,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO2d",
-                   "display": "d. Advance directives for no tube feeding"
-                 },
-                 {
-                   "code": "iO2a",
-                   "display": "a. Advance directives for not resuscitating"
-                 }
-               ],
+               
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13834,16 +13682,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO2e",
-                   "display": "e. Advance directives for medication restrictions"
-                 },
-                 {
-                   "code": "iO2a",
-                   "display": "a. Advance directives for not resuscitating"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13879,16 +13718,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO2h",
-                   "display": "f. Advance directives for other treatment restrictions"
-                 },
-                 {
-                   "code": "iO2a",
-                   "display": "a. Advance directives for not resuscitating"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13971,24 +13801,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iO1",
-               "display": "Legal guardian"
-             }
-           ],
+          
            "required": false,
            "linkId": "iO1",
            "text": "Legal guardian",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO1a",
-                   "display": "a. Legal guardian"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14024,12 +13844,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO1b",
-                   "display": "b. Other legal oversight"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14065,12 +13880,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO1c",
-                   "display": "c. Enduring power of attorney / health care"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14106,12 +13916,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO1d",
-                   "display": "d. Enduring power of attorney / financial"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14185,36 +13990,21 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iR",
-           "display": "SECTION Q. Discharge Potential"
-         }
-       ],
+      
        "required": false,
        "linkId": "iR",
        "text": "SECTION Q. Discharge Potential",
        "item": [
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iR6",
-               "display": "Discharge Potential"
-             }
-           ],
+          
            "required": false,
            "linkId": "iR6",
            "text": "Discharge Potential",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iR6a",
-                   "display": "a. Expresses / indicates preference to return to or remain in community"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14250,12 +14040,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iR6b",
-                   "display": "b. Has a support person who is positive toward discharge or maintaining residence in community"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14291,12 +14076,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iR6c",
-                   "display": "c. Has housing available in community"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14334,12 +14114,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iR7",
-               "display": "How long person is expected to stay in the current setting or under the care of this service prior to discharge to community"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14406,24 +14181,14 @@
        "item": [
          {
            "type": "date",
-           "code": [
-             {
-               "code": "iT1",
-               "display": "Last day of stay"
-             }
-           ],
+          
            "required": false,
            "linkId": "iT1",
            "text": "Last day of stay"
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iT2",
-               "display": "Residential/Living status after discharge"
-             }
-           ],
+        
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14567,12 +14332,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iT4",
-               "display": "Scheduled to receive home care services at discharge"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -14610,36 +14370,21 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iU",
-           "display": "SECTION S. Assessment Information"
-         }
-       ],
+    
        "required": false,
        "linkId": "iU",
        "text": "SECTION S. Assessment Information",
        "item": [
          {
            "type": "string",
-           "code": [
-             {
-               "code": "iU1",
-               "display": "Signature of person coordinating/completing the assessment"
-             }
-           ],
+          
            "required": false,
            "linkId": "iU1",
            "text": "Signature of person coordinating/completing the assessment"
          },
          {
            "type": "date",
-           "code": [
-             {
-               "code": "iU2",
-               "display": "Date assessment signed as complete"
-             }
-           ],
+          
            "required": false,
            "linkId": "iU2",
            "text": "Date assessment signed as complete"
