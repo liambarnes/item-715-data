@@ -64,13 +64,6 @@
                }
             },
             {
-               "fullUrl":"urn:uuid:38a25157-b8e4-42e4-9525-7954fed52561",
-               "request":{
-                  "method":"GET",
-                  "url":"Observation?code=72166-2&_count=1&_sort=-date&patient={{%LaunchPatient.id}}"
-               }
-            },
-            {
                "fullUrl":"urn:uuid:38a25157-b8e4-42e4-9525-7954fed52562",
                "request":{
                   "method":"GET",
@@ -425,7 +418,7 @@
                            "url":"http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-initialExpression",
                            "valueExpression":{
                               "language":"text/fhirpath",
-                              "expression":"%LaunchPatient.address.select(line.first() + ', ' + city + ', ' + state + ' ' + postalCode)"
+                              "expression":"%LaunchPatient.address.select(line.join(' ') + ', ' + city + ', ' + state + ' ' + postalCode)"
                            }
                         }
                      ],
