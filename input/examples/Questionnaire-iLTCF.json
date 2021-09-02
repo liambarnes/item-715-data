@@ -13,9 +13,7 @@
        "text": "SECTION A. Identification Information",
        "item": [
          {
-           "type": "group"
-          
-           ],
+           "type": "group",
            "required": false,
            "linkId": "iA1",
            "text": "Name",
