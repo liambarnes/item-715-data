@@ -160,24 +160,14 @@
          },
          {
            "type": "string",
-           "code": [
-             {
-               "code": "iA6g",
-               "display": "Facility/Agency Provider Number"
-             }
-           ],
+          
            "required": false,
            "linkId": "iA6g",
            "text": "Facility/Agency Provider Number"
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iA8",
-               "display": "Reason for assessment"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -243,48 +233,28 @@
          },
          {
            "type": "date",
-           "code": [
-             {
-               "code": "iA9",
-               "display": "Assessment Reference Date"
-             }
-           ],
+          
            "required": false,
            "linkId": "iA9",
            "text": "Assessment Reference Date"
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iB44",
-               "display": "Expressed goals of care"
-             }
-           ],
+         
            "required": false,
            "linkId": "iB44",
            "text": "Expressed goals of care",
            "item": [
              {
                "type": "text",
-               "code": [
-                 {
-                   "code": "iB44a",
-                   "display": "Expressed goals of care"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iB44a",
                "text": "Expressed goals of care"
              },
              {
                "type": "string",
-               "code": [
-                 {
-                   "code": "iB44b",
-                   "display": "Primary Goal"
-                 }
-               ],
+             
                "required": false,
                "linkId": "iB44b",
                "text": "Primary Goal"
@@ -293,12 +263,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iA13",
-               "display": "Time since last hospital stay"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -360,24 +325,14 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "B",
-           "display": "SECTION B. Intake and Initial History"
-         }
-       ],
+       
        "required": false,
        "linkId": "B",
        "text": "SECTION B. Intake and Initial History",
        "item": [
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iB6",
-               "display": "Level of control person had over decision to move into LTCF"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -425,36 +380,21 @@
          },
          {
            "type": "date",
-           "code": [
-             {
-               "code": "iB2",
-               "display": "Date stay began"
-             }
-           ],
+          
            "required": false,
            "linkId": "iB2",
            "text": "Date stay began"
          },
          {
            "type": "string",
-           "code": [
-             {
-               "code": "iA45",
-               "display": "Country of birth"
-             }
-           ],
+          
            "required": false,
            "linkId": "iA45",
            "text": "Country of birth"
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iB3k",
-               "display": "Indigenous status"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -501,12 +441,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iB4",
-               "display": "Primary Language"
-             }
-           ],
+         
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -680,12 +615,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iA11b",
-               "display": "Usual residence status"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -823,24 +753,14 @@
          },
          {
            "type": "string",
-           "code": [
-             {
-               "code": "iA10",
-               "display": "Post code of usual living arrangement prior to admission"
-             }
-           ],
+          
            "required": false,
            "linkId": "iA10",
            "text": "Post code of usual living arrangement prior to admission"
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iA12a",
-               "display": "Living arrangement prior to admission"
-             }
-           ],
+         
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -912,24 +832,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iB5",
-               "display": "Residential History Over Last 5 Years"
-             }
-           ],
+          
            "required": false,
            "linkId": "iB5",
            "text": "Residential History Over Last 5 Years",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iB5a",
-                   "display": "a. Long-term care facility"
-                 }
-               ],
+               
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -965,12 +875,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iB5b",
-                   "display": "b. Board and care home, assisted living, group home"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1006,12 +911,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iB5e",
-                   "display": "c. Mental health residence"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1083,12 +983,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iB5d",
-                   "display": "e. Setting for persons with intellectual disability"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1138,7 +1033,7 @@
          },
          {
            "type": "choice",
-           "code": [],
+        
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1208,19 +1103,13 @@
      },
      {
        "type": "group",
-       "code": [],
+      
        "required": false,
        "linkId": "C",
        "text": "SECTION C. Cognition",
        "item": [
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iC1",
-               "display": "Cognitive skills for daily decision making"
-             }
-           ],
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1321,12 +1210,7 @@
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iC2a",
-                   "display": "a. Short-term memory OK"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1374,12 +1258,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iC2b",
-                   "display": "b. Procedural memory OK"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1427,12 +1306,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iC2c",
-                   "display": "c. Situational memory OK"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1480,12 +1354,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iC2d",
-                   "display": "d. Long-term memory OK"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1540,12 +1409,7 @@
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iC3a",
-                   "display": "a. Easily distracted"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1605,12 +1469,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iC3b",
-                   "display": "b. Episodes of disorganised speech"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1670,12 +1529,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iC3c",
-                   "display": "c. Mental Function varies over the course of the day"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1785,12 +1639,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iC5",
-               "display": "Change in decision making as compared to 90 days ago"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1864,19 +1713,14 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "D",
-           "display": "SECTION D. Communication and Vision"
-         }
-       ],
+       
        "required": false,
        "linkId": "D",
        "text": "SECTION D. Communication and Vision",
        "item": [
          {
            "type": "choice",
-           "code": [],
+           
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1930,7 +1774,7 @@
          },
          {
            "type": "choice",
-           "code": [],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -1989,7 +1833,7 @@
            "item": [
              {
                "type": "choice",
-               "code": [],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2043,7 +1887,7 @@
              },
              {
                "type": "choice",
-               "code": [],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2086,7 +1930,7 @@
            "item": [
              {
                "type": "choice",
-               "code": [],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2140,7 +1984,7 @@
              },
              {
                "type": "choice",
-               "code": [],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2180,40 +2024,21 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iE",
-           "display": "SECTION E. Mood and Behaviour"
-         },
-         {
-           "code": "E",
-           "display": "SECTION E. Mood and Behaviour"
-         }
-       ],
+       
        "required": false,
        "linkId": "iE",
        "text": "SECTION E. Mood and Behaviour",
        "item": [
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iE1",
-               "display": "Indicators of possible depressed, anxious, or sad mood"
-             }
-           ],
+         
            "required": false,
            "linkId": "iE1",
            "text": "Indicators of possible depressed, anxious, or sad mood",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1a",
-                   "display": "a. Made negative statements"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2261,12 +2086,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1b",
-                   "display": "b. Persistent anger with self or others"
-                 }
-               ],
+        
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2314,12 +2134,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1c",
-                   "display": "c. Expressions, including non-verbal, of what appears to be unrealistic fears"
-                 }
-               ],
+        
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2367,12 +2182,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1d",
-                   "display": "d. Repetitive health complaints"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2420,12 +2230,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1e",
-                   "display": "e. Repetitive anxious complaints/concerns (non-health-related)"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2473,12 +2278,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1f",
-                   "display": "f. Sad, pained, or worried facial expressions"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2526,12 +2326,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1g",
-                   "display": "g. Crying, tearfulness"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2579,12 +2374,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1h",
-                   "display": "h. Recurrent statements that something terrible is about to happen"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2632,12 +2422,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1i",
-                   "display": "i. Withdrawal from activities of interest"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2685,12 +2470,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1j",
-                   "display": "j. Reduced social interactions"
-                 }
-               ],
+        
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2738,12 +2518,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE1k",
-                   "display": "k. Expressions, including non-verbal, of a lack of pleasure in life (anhedonia)"
-                 }
-               ],
+     
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2793,24 +2568,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iE2",
-               "display": "Self-reported mood - \"In the last 3 days, how often have you felt…\""
-             }
-           ],
+      
            "required": false,
            "linkId": "iE2",
            "text": "Self-reported mood - \"In the last 3 days, how often have you felt…\"",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE2a",
-                   "display": "a. Little interest or pleasure in things you normally enjoy?"
-                 }
-               ],
+        
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2864,12 +2629,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE2b",
-                   "display": "b. Anxious, restless, or uneasy?"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2923,12 +2683,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE2c",
-                   "display": "c. Sad, depressed, or hopeless?"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -2984,24 +2739,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iE3",
-               "display": "Behaviour symptoms"
-             }
-           ],
+         
            "required": false,
            "linkId": "iE3",
            "text": "Behaviour symptoms",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE3a",
-                   "display": "a. Wandering"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3049,12 +2794,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE3b",
-                   "display": "b. Verbal abuse"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3102,12 +2842,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE3c",
-                   "display": "c. Physical abuse"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3155,12 +2890,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE3d",
-                   "display": "d. Socially inappropriate or disruptive behaviour"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3208,12 +2938,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE3f",
-                   "display": "e. Inappropriate public sexual behaviour or public disrobing"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3261,12 +2986,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iE3e",
-                   "display": "f. Resists care"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3318,36 +3038,21 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iF",
-           "display": "SECTION F. Psychosocial Well-being"
-         }
-       ],
+      
        "required": false,
        "linkId": "iF",
        "text": "SECTION F. Psychosocial Well-being",
        "item": [
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iF1",
-               "display": "Social relationships"
-             }
-           ],
+        
            "required": false,
            "linkId": "iF1",
            "text": "Social relationships",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF1a",
-                   "display": "a. Participation in social activities of long-standing interest"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3407,12 +3112,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF1b",
-                   "display": "b. Visit with a long-standing social relation or family member"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3472,12 +3172,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF1c",
-                   "display": "c. Other interaction with long-standing social relation or family member"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3539,24 +3234,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iF5",
-               "display": "Sense of involvement"
-             }
-           ],
+   
            "required": false,
            "linkId": "iF5",
            "text": "Sense of involvement",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF5a",
-                   "display": "a. At ease interacting with others"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3604,12 +3289,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF5b",
-                   "display": "b. At ease doing planned or structured activities"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3657,12 +3337,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF5c",
-                   "display": "c. Accepts invitations into most group activities"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3710,12 +3385,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF5d",
-                   "display": "d. Pursues involvement in life of facility"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3763,12 +3433,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF5e",
-                   "display": "e. Initiates interaction(s) with others"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3816,12 +3481,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF5f",
-                   "display": "f. Reacts positively to interactions initiated by others"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3869,12 +3529,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF5g",
-                   "display": "g. Adjusts easily to change in routine"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3924,24 +3579,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iF7",
-               "display": "Unsettled relationships"
-             }
-           ],
+      
            "required": false,
            "linkId": "iF7",
            "text": "Unsettled relationships",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF7a",
-                   "display": "a. Conflict with or repeated criticism of other care recipients"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -3977,12 +3622,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF7b",
-                   "display": "b. Conflict with or repeated criticism of staff"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4018,12 +3658,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF7c",
-                   "display": "c. Staff report persistent frustration in dealing with person"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4059,12 +3694,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF7d",
-                   "display": "d. Family or close friends report feeling overwhelmed by person’s condition"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4100,12 +3730,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF1d",
-                   "display": "e. Says or indicates that he/she feels lonely"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4143,12 +3768,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iF4",
-               "display": "Major life stressors in the last 90 days"
-             }
-           ],
+      
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4184,24 +3804,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iF8",
-               "display": "Strengths"
-             }
-           ],
+      
            "required": false,
            "linkId": "iF8",
            "text": "Strengths",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF8b",
-                   "display": "a. Consistent positive outlook"
-                 }
-               ],
+        
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4237,12 +3847,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iF8c",
-                   "display": "b. Finds meaning in day-to-day life"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4278,7 +3883,7 @@
              },
              {
                "type": "choice",
-               "code": [],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4318,36 +3923,21 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iG",
-           "display": "SECTION G. Functional Status"
-         }
-       ],
+     
        "required": false,
        "linkId": "iG",
        "text": "SECTION G. Functional Status",
        "item": [
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iG2",
-               "display": "ADL self-performance"
-             }
-           ],
+         
            "required": false,
            "linkId": "iG2",
            "text": "ADL self-performance",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2a",
-                   "display": "a. Bathing"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4419,12 +4009,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2b",
-                   "display": "b. Personal hygiene"
-                 }
-               ],
+       
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4568,12 +4153,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2d",
-                   "display": "d. Dressing lower body"
-                 }
-               ],
+       
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4645,12 +4225,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2e",
-                   "display": "e. Walking"
-                 }
-               ],
+      
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4722,12 +4297,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2f",
-                   "display": "f. Locomotion"
-                 }
-               ],
+      
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4799,12 +4369,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2g",
-                   "display": "g. Transfer toilet"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4876,12 +4441,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2h",
-                   "display": "h. Toilet use"
-                 }
-               ],
+        
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -4953,12 +4513,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2i",
-                   "display": "i. Bed mobility"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5030,12 +4585,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG2j",
-                   "display": "j. Eating"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5109,28 +4659,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "3iG",
-               "display": "Locomotion/Walking"
-             },
-             {
-               "code": "iG2",
-               "display": "Locomotion/Walking"
-             }
-           ],
+          
            "required": false,
            "linkId": "3iG",
            "text": "Locomotion/Walking",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG3",
-                   "display": "a. Primary mode of locomotion"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5178,12 +4714,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG12",
-                   "display": "b. Timed 4-metre walk"
-                 }
-               ],
+               
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5405,12 +4936,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG4",
-                   "display": "c. Distance walked"
-                 }
-               ],
+               
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5470,12 +4996,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG5",
-                   "display": "d. Distance wheeled self"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5543,28 +5064,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iG6",
-               "display": "Activity Level"
-             },
-             {
-               "code": "iG3",
-               "display": "Activity Level"
-             }
-           ],
+         
            "required": false,
            "linkId": "iG6",
            "text": "Activity Level",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG6a",
-                   "display": "a. Total hours of exercise or physical activity in Last 3 days"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5618,12 +5125,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG6b",
-                   "display": "b. Number of days went out of house or buildiing of residence in last 3 days"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5673,28 +5175,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iG7",
-               "display": "Physical function improvement potential"
-             },
-             {
-               "code": "iG4",
-               "display": "Physical function improvement potential"
-             }
-           ],
+         
            "required": false,
            "linkId": "iG7",
            "text": "Physical function improvement potential",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG7a",
-                   "display": "a. Person believes he/she is capable of improved performance in physical function"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5730,12 +5218,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iG7b",
-                   "display": "b. Care professional believes person is capable of improved performance in physical function"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5773,12 +5256,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iG8a2",
-               "display": "Change in ADL status as compared to 90 days ago (or since last assessment if less than 90 days ago)"
-             }
-           ],
+   
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5828,24 +5306,14 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iH",
-           "display": "SECTION H. Continence"
-         }
-       ],
+
        "required": false,
        "linkId": "iH",
        "text": "SECTION H. Continence",
        "item": [
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iH1",
-               "display": "Bladder continence"
-             }
-           ],
+   
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5911,12 +5379,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iH2",
-               "display": "Urinary collection device (excludes pads/briefs)"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -5964,12 +5427,8 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iH3",
-               "display": "Bowel continence"
-             }
-           ],
+
+ 
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6035,12 +5494,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iH5",
-               "display": "Ostomy"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6078,36 +5532,21 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iI",
-           "display": "SECTION I. Disease diagnoses"
-         }
-       ],
+     
        "required": false,
        "linkId": "iI",
        "text": "SECTION I. Disease diagnoses",
        "item": [
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iI1",
-               "display": "Disease diagnoses"
-             }
-           ],
+         
            "required": false,
            "linkId": "iI1",
            "text": "Disease diagnoses",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1a",
-                   "display": "a. Hip fracture during the last 30 days (or since last assessment if less than 30 days)"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6155,12 +5594,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1b",
-                   "display": "b. Other fracture during the last 30 days (or since last assessment if less than 30 days)"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6208,12 +5642,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1c",
-                   "display": "c. Alzheimer's disease"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6261,12 +5690,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1d",
-                   "display": "d. Dementia other than Alzheimer's disease"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6314,12 +5738,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1e",
-                   "display": "e. Hemiplegia"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6367,12 +5786,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1f",
-                   "display": "f. Multiple sclerosis (MS)"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6420,12 +5834,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1g",
-                   "display": "g. Paraplegia"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6473,12 +5882,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1h",
-                   "display": "h. Parkinson's disease"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6526,12 +5930,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1i",
-                   "display": "i. Quadriplegia"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6579,12 +5978,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1j",
-                   "display": "j. Stroke/CVA"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6632,12 +6026,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1k",
-                   "display": "k. Coronary heart disease"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6685,12 +6074,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1l",
-                   "display": "m. Congestive heart failure (CHF)"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6738,12 +6122,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1m",
-                   "display": "l. Chronic obstructive pulmonary disease (COPD)"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6791,12 +6170,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1n",
-                   "display": "n. Anxiety"
-                 }
-               ],
+          
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6844,12 +6218,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1w",
-                   "display": "o. Bipolar disorder"
-                 }
-               ],
+             
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6897,12 +6266,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1o",
-                   "display": "p. Depression"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -6950,12 +6314,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1p",
-                   "display": "q. Schizophrenia"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7003,12 +6362,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1q",
-                   "display": "r. Pneumonia"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7056,12 +6410,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1r",
-                   "display": "s. Urinary tract infection (UTI) during last 30 days"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7109,12 +6458,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1s",
-                   "display": "t. Cancer"
-                 }
-               ],
+           
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7162,12 +6506,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iI1t",
-                   "display": "u. Diabetes Mellitus"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7217,19 +6556,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iI2",
-               "display": "Other disease diagnoses"
-             }
-           ],
+       
            "required": false,
            "linkId": "iI2",
            "text": "Other disease diagnoses",
            "item": [
              {
                "type": "string",
-               "code": [],
+              
                "extension": [
                  {
                    "url": "http://lhcforms.nlm.nih.gov/fhirExt/dataControl",
@@ -7242,12 +6576,7 @@
                "item": [
                  {
                    "type": "choice",
-                   "code": [
-                     {
-                       "code": "iI1ppp",
-                       "display": "a. Diagnosis Disease Code"
-                     }
-                   ],
+                
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7298,24 +6627,14 @@
              },
              {
                "type": "string",
-               "code": [
-                 {
-                   "code": "iI1qqq2",
-                   "display": "b. Diagnosis"
-                 }
-               ],
+           
                "required": false,
                "linkId": "iI1qqq2",
                "text": "b. Diagnosis",
                "item": [
                  {
                    "type": "choice",
-                   "code": [
-                     {
-                       "code": "iI1qqq",
-                       "display": "b. Diagnosis Disease Code"
-                     }
-                   ],
+               
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7366,24 +6685,14 @@
              },
              {
                "type": "string",
-               "code": [
-                 {
-                   "code": "iI1rrr2",
-                   "display": "c. Diagnosis"
-                 }
-               ],
+            
                "required": false,
                "linkId": "iI1rrr2",
                "text": "c. Diagnosis",
                "item": [
                  {
                    "type": "choice",
-                   "code": [
-                     {
-                       "code": "iI1rrr",
-                       "display": "c. Diagnosis Disease Code"
-                     }
-                   ],
+           
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7438,24 +6747,14 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iJ",
-           "display": "SECTION J. Health Conditions"
-         }
-       ],
+
        "required": false,
        "linkId": "iJ",
        "text": "SECTION J. Health Conditions",
        "item": [
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iJ1",
-               "display": "Falls"
-             }
-           ],
+ 
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7503,12 +6802,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iJ12",
-               "display": "Recent falls"
-             }
-           ],
+    
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7566,24 +6860,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iJ2",
-               "display": "Problem frequency"
-             }
-           ],
+    
            "required": false,
            "linkId": "iJ2",
            "text": "Problem frequency",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2a",
-                   "display": "a. Difficult or unable to move self to standing position unassisted"
-                 }
-               ],
+        
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7637,12 +6921,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2b",
-                   "display": "b. Difficult or unable to turn self around and face the opposite direction when standing"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7696,12 +6975,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2c",
-                   "display": "c. Dizziness"
-                 }
-               ],
+       
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7755,12 +7029,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2d",
-                   "display": "d. Unsteady gait"
-                 }
-               ],
+       
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7814,12 +7083,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2e",
-                   "display": "e. Chest pain"
-                 }
-               ],
+      
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7873,12 +7137,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2f",
-                   "display": "f. Difficulty clearing airway secretions"
-                 }
-               ],
+       
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7932,12 +7191,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2g",
-                   "display": "g. Abnormal thought process"
-                 }
-               ],
+      
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -7991,12 +7245,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2h",
-                   "display": "h. Delusions"
-                 }
-               ],
+        
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8050,12 +7299,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2j",
-                   "display": "j. Aphasia"
-                 }
-               ],
+         
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8109,12 +7353,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2m",
-                   "display": "k. Acid reflux"
-                 }
-               ],
+      
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8168,12 +7407,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2k",
-                   "display": "l. Constipation"
-                 }
-               ],
+      
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8227,12 +7461,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2l",
-                   "display": "m. Diarrhea"
-                 }
-               ],
+      
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8286,12 +7515,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2n",
-                   "display": "n. Vomiting"
-                 }
-               ],
+  
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8345,12 +7569,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2o",
-                   "display": "o. Difficulty falling asleep or staying asleep; waking up too early; restless- ness; non-restful sleep"
-                 }
-               ],
+            
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8404,12 +7623,6 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ2p",
-                   "display": "p. Too much sleep - Excessive amount of sleep that interferes with person’s normal functioning"
-                 }
-               ],
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8465,12 +7678,6 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iJ3",
-               "display": "Dyspnoea (shortness of breath)"
-             }
-           ],
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8518,12 +7725,6 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iJ4",
-               "display": "Fatigue"
-             }
-           ],
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8577,24 +7778,12 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iJ5",
-               "display": "Pain symptoms"
-             }
-           ],
            "required": false,
            "linkId": "iJ5",
            "text": "Pain symptoms",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ5a",
-                   "display": "a. Frequency with which person complains or shows evidence of pain"
-                 }
-               ],
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8642,12 +7831,6 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ5b",
-                   "display": "b. Intensity of highest level of pain present"
-                 }
-               ],
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8701,12 +7884,6 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ5c",
-                   "display": "c. Consistency of pain"
-                 }
-               ],
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8754,12 +7931,6 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ5d",
-                   "display": "d. Breakthrough pain"
-                 }
-               ],
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8795,12 +7966,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ5e",
-                   "display": "e. Pain control"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8862,24 +8028,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iJ6",
-               "display": "Instability of conditions"
-             }
-           ],
+          
            "required": false,
            "linkId": "iJ6",
            "text": "Instability of conditions",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ6a",
-                   "display": "a. Conditions/diseases make cognitive, AD, mood, or behaviour patterns unstable"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8915,12 +8071,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ6b",
-                   "display": "b. Experiencing an acute episode or flare up of a recurrent or chronic problem"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8956,12 +8107,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iJ6c",
-                   "display": "c. End-stage disease, 6 or fewer months to live"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -8999,12 +8145,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iJ8",
-               "display": "Self-reported health"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9063,7 +8204,7 @@
            "item": [
              {
                "type": "choice",
-               "code": [],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9155,38 +8296,28 @@
      },
      {
        "type": "group",
-       "code": [],
+      
        "required": false,
        "linkId": "iK",
        "text": "SECTION K. Oral and Nutritional Status",
        "item": [
          {
            "type": "group",
-           "code": [],
+          
            "required": false,
            "linkId": "iK1",
            "text": "Height and Weight",
            "item": [
              {
                "type": "integer",
-               "code": [
-                 {
-                   "code": "iK1ab",
-                   "display": "a. HT (cm)"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iK1ab",
                "text": "a. HT (cm)"
              },
              {
                "type": "integer",
-               "code": [
-                 {
-                   "code": "iK1bb",
-                   "display": "b. WT (kg)"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iK1bb",
                "text": "b. WT (kg)"
@@ -9195,24 +8326,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iK2",
-               "display": "Nutritional Issues"
-             }
-           ],
+          
            "required": false,
            "linkId": "iK2",
            "text": "Nutritional Issues",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK2a",
-                   "display": "a. Weight loss of 5% or more in LAST 30 DAYS, or 10% or more in LAST 180 DAYS"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9248,12 +8369,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK2c",
-                   "display": "b. Dehydrated"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9289,12 +8405,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK2b",
-                   "display": "c. Fluid intake less than 1,000ml per day"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9330,12 +8441,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK2h",
-                   "display": "d. Fluid output exceeds input"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9373,12 +8479,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iK3",
-               "display": "Mode of nutritional intake"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9462,12 +8563,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iK5",
-               "display": "Parenteral or enteral intake"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9526,12 +8622,7 @@
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK4a",
-                   "display": "a. Wears a denture (removable prosthesis)"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9603,12 +8694,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK4e",
-                   "display": "c. Reports mouth or facial pain / discomfort"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9644,12 +8730,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK4d",
-                   "display": "d. Reports having dry mouth"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9685,12 +8766,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK4c",
-                   "display": "e. Reports difficulty chewing"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9726,12 +8802,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iK4f",
-                   "display": "f. Presents with gum (soft tissue) inflammation or bleeding adjacent to natural teeth or tooth fragments"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9771,24 +8842,14 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iL",
-           "display": "SECTION L. Skin Condition"
-         }
-       ],
+      
        "required": false,
        "linkId": "iL",
        "text": "SECTION L. Skin Condition",
        "item": [
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iL1",
-               "display": "Most severe pressure ulcer"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9854,12 +8915,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iL2",
-               "display": "Prior pressure ulcer"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9895,12 +8951,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iL3",
-               "display": "Presence of skin ulcer other than pressure ulcer"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9936,12 +8987,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iL4",
-               "display": "Major skin problems"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -9977,12 +9023,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iL5",
-               "display": "Skin tears or cuts"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10018,12 +9059,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iL6",
-               "display": "Other skin conditions or changes in skin condition"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10059,12 +9095,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iL7",
-               "display": "Foot problems"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10120,24 +9151,14 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iS",
-           "display": "SECTION M. Activity Pursuit"
-         }
-       ],
+      
        "required": false,
        "linkId": "iS",
        "text": "SECTION M. Activity Pursuit",
        "item": [
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iS1b",
-               "display": "Average time involved in activities"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10185,24 +9206,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iS2",
-               "display": "Activity preferences and involvement"
-             }
-           ],
+          
            "required": false,
            "linkId": "iS2",
            "text": "Activity preferences and involvement",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2a",
-                   "display": "a. Cards, games, or puzzles"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10256,12 +9267,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2b",
-                   "display": "b. Computer activity"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10315,12 +9321,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2c",
-                   "display": "c. Conversing or talking on the phone"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10374,12 +9375,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2d",
-                   "display": "d. Crafts or arts"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10433,12 +9429,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2e",
-                   "display": "e. Dancing"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10492,12 +9483,6 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2r",
-                   "display": "f. Discussing or Reminiscing about life"
-                 }
-               ],
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10551,12 +9536,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2f",
-                   "display": "g. Exercising or playing sports"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10610,12 +9590,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2g",
-                   "display": "h. Gardening or tending plants"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10669,12 +9644,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2h",
-                   "display": "i. Helping others / volunteering"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10728,12 +9698,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2i",
-                   "display": "j. Music or singing"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10787,12 +9752,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2j",
-                   "display": "k. Pets"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10846,12 +9806,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2k",
-                   "display": "l. Reading, writing, or crossword puzzles"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10905,12 +9860,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2l",
-                   "display": "m. Spiritual or religious activities"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -10964,12 +9914,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2m",
-                   "display": "n. Trips or shopping"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11023,12 +9968,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2n",
-                   "display": "o. Walking or wheeling outdoors"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11082,12 +10022,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iS2o",
-                   "display": "p. Watching television, listening to radio, listening to music"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11143,12 +10078,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iS3",
-               "display": "Time asleep during the day"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11198,48 +10128,28 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iM",
-           "display": "SECTION N. Medications"
-         }
-       ],
+      
        "required": false,
        "linkId": "iM",
        "text": "SECTION N. Medications",
        "item": [
          {
            "type": "string",
-           "code": [
-             {
-               "code": "iM1a1",
-               "display": "a. Drug name"
-             }
-           ],
+          
            "required": false,
            "linkId": "iM1a1",
            "text": "a. Drug name",
            "item": [
              {
                "type": "integer",
-               "code": [
-                 {
-                   "code": "iM1b1",
-                   "display": "b. Dose"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iM1b1",
                "text": "b. Dose"
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iM1c1",
-                   "display": "c. Unit"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11335,12 +10245,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iM1d1",
-                   "display": "d. Route of administration"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11436,12 +10341,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iM1e1",
-                   "display": "e. Frequency"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11603,12 +10503,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iM1f1",
-                   "display": "f. PRN"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11651,12 +10546,7 @@
          },
          {
            "type": "choice",
-           "code": [
-             {
-               "code": "iM2",
-               "display": "Allergy to any drug"
-             }
-           ],
+          
            "extension": [
              {
                "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11694,36 +10584,21 @@
      },
      {
        "type": "group",
-       "code": [
-         {
-           "code": "iN",
-           "display": "SECTION O. Treatmeants and Procedures"
-         }
-       ],
+      
        "required": false,
        "linkId": "iN",
        "text": "SECTION O. Treatmeants and Procedures",
        "item": [
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iN1",
-               "display": "Prevention"
-             }
-           ],
+          
            "required": false,
            "linkId": "iN1",
            "text": "Prevention",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN1d",
-                   "display": "a. Blood pressure measured in last year"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11759,12 +10634,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN1h",
-                   "display": "b. Colonoscopy test in last 5 years"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11800,12 +10670,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN1e",
-                   "display": "c. Dental exam in last year"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11841,12 +10706,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN1g",
-                   "display": "d. Eye exam in last year"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11882,12 +10742,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN1f",
-                   "display": "e. Hearing exam in last 2 years"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11923,12 +10778,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN1a",
-                   "display": "f. Influenza vaccine in last year"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -11964,12 +10814,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN1c",
-                   "display": "g. Mammogram"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12005,12 +10850,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN1b",
-                   "display": "h. Pneumovax vaccine in last 5 years or after age 65"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12048,24 +10888,14 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iN2",
-               "display": "Treatments and programs received or scheduled in the last 3 days"
-             }
-           ],
+          
            "required": false,
            "linkId": "iN2",
            "text": "Treatments and programs received or scheduled in the last 3 days",
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2a",
-                   "display": "a. Chemotherapy"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12113,12 +10943,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2b",
-                   "display": "b. Dialysis"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12166,12 +10991,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2c",
-                   "display": "c. Infection control — e.g., isolation, quarantine"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12219,12 +11039,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2d",
-                   "display": "d. IV medication"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12272,12 +11087,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2e",
-                   "display": "e. Oxygen therapy"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12325,12 +11135,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2f",
-                   "display": "f. Radiation"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12378,12 +11183,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2g",
-                   "display": "g. Suctioning"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12431,12 +11231,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2h",
-                   "display": "h. Tracheostomy care"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12484,12 +11279,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2i",
-                   "display": "i. Transfusion"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12537,12 +11327,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2j",
-                   "display": "j. Ventilator or respirator"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12590,12 +11375,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2k",
-                   "display": "k. Wound care"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12643,12 +11423,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2l",
-                   "display": "l. Scheduled toileting program"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12696,12 +11471,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2m",
-                   "display": "m. Palliative care for chronic conditions"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12749,12 +11519,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN2n",
-                   "display": "n. Turning / repositioning program"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -12804,36 +11569,21 @@
          },
          {
            "type": "group",
-           "code": [
-             {
-               "code": "iN3",
-               "display": "Therapy/Nursing services in last 7 days"
-             }
-           ],
+          
            "required": false,
            "linkId": "iN3",
            "text": "Therapy/Nursing services in last 7 days",
            "item": [
              {
                "type": "group",
-               "code": [
-                 {
-                   "code": "iN3e",
-                   "display": "a. Physical Therapy"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iN3e",
                "text": "a. Physical Therapy",
                "item": [
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3ec",
-                       "display": "Physical therapy - days treatment scheduled"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -12846,24 +11596,14 @@
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3ea",
-                       "display": "Physical therapy - days treatment administered"
-                     }
-                   ],
+                  
                    "required": false,
                    "linkId": "iN3ea",
                    "text": "Physical therapy - days treatment administered"
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3eb",
-                       "display": "Physical therapy - minutes treatment administered or ordered"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -12878,32 +11618,14 @@
              },
              {
                "type": "group",
-               "code": [
-                 {
-                   "code": "iN3f",
-                   "display": "b. Occupational Therapy"
-                 },
-                 {
-                   "code": "iN3e",
-                   "display": "a. Physical Therapy"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iN3f",
                "text": "b. Occupational Therapy",
                "item": [
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3fc",
-                       "display": "Occupational therapy - days treatment scheduled"
-                     },
-                     {
-                       "code": "iN3ec",
-                       "display": "Physical therapy - days treatment scheduled"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -12916,32 +11638,14 @@
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3fa",
-                       "display": "Occupational therapy - days treatment administered"
-                     },
-                     {
-                       "code": "iN3ea",
-                       "display": "Physical therapy - days treatment administered"
-                     }
-                   ],
+                  
                    "required": false,
                    "linkId": "iN3fa",
                    "text": "Occupational therapy - days treatment administered"
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3fb",
-                       "display": "Occupational therapy - minutes treatment administered or ordered"
-                     },
-                     {
-                       "code": "iN3eb",
-                       "display": "Physical therapy - minutes treatment administered or ordered"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -12956,32 +11660,14 @@
              },
              {
                "type": "group",
-               "code": [
-                 {
-                   "code": "iN3g",
-                   "display": "c. Speech-Language Therapy and Audiology Services"
-                 },
-                 {
-                   "code": "iN3e",
-                   "display": "a. Physical Therapy"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iN3g",
                "text": "c. Speech-Language Therapy and Audiology Services",
                "item": [
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3gc",
-                       "display": "Speech-Language Therapy and Audiology Services - days treatment scheduled"
-                     },
-                     {
-                       "code": "iN3ec",
-                       "display": "Physical therapy - days treatment scheduled"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -12994,32 +11680,14 @@
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3ga",
-                       "display": "Speech-Language Therapy and Audiology Services - days treatment administered"
-                     },
-                     {
-                       "code": "iN3ea",
-                       "display": "Physical therapy - days treatment administered"
-                     }
-                   ],
+                  
                    "required": false,
                    "linkId": "iN3ga",
                    "text": "Speech-Language Therapy and Audiology Services - days treatment administered"
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3gb",
-                       "display": "Speech-Language Therapy and Audiology Services - minutes treatment administered or ordered"
-                     },
-                     {
-                       "code": "iN3eb",
-                       "display": "Physical therapy - minutes treatment administered or ordered"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -13034,32 +11702,14 @@
              },
              {
                "type": "group",
-               "code": [
-                 {
-                   "code": "iN3i",
-                   "display": "d. Respiratory Therapy"
-                 },
-                 {
-                   "code": "iN3e",
-                   "display": "a. Physical Therapy"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iN3i",
                "text": "d. Respiratory Therapy",
                "item": [
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3ic",
-                       "display": "Respiratory therapy - days treatment scheduled"
-                     },
-                     {
-                       "code": "iN3ec",
-                       "display": "Physical therapy - days treatment scheduled"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -13072,32 +11722,14 @@
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3ia",
-                       "display": "Respiratory therapy - days treatment administered"
-                     },
-                     {
-                       "code": "iN3ea",
-                       "display": "Physical therapy - days treatment administered"
-                     }
-                   ],
+                  
                    "required": false,
                    "linkId": "iN3ia",
                    "text": "Respiratory therapy - days treatment administered"
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3ib",
-                       "display": "Respiratory therapy - minutes treatment administered or ordered"
-                     },
-                     {
-                       "code": "iN3eb",
-                       "display": "Physical therapy - minutes treatment administered or ordered"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -13112,16 +11744,7 @@
              },
              {
                "type": "group",
-               "code": [
-                 {
-                   "code": "iN3j",
-                   "display": "e. Functional rehabilitation or walking program by licensed nurse"
-                 },
-                 {
-                   "code": "iN3e",
-                   "display": "a. Physical Therapy"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iN3j",
                "text": "e. Functional rehabilitation or walking program by licensed nurse",
@@ -13141,32 +11764,13 @@
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3ja",
-                       "display": "Functional rehabilitation - days treatment administered"
-                     },
-                     {
-                       "code": "iN3ea",
-                       "display": "Physical therapy - days treatment administered"
-                     }
-                   ],
+                   
                    "required": false,
                    "linkId": "iN3ja",
                    "text": "Functional rehabilitation - days treatment administered"
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3jb",
-                       "display": "Functional rehabilitation - minutes treatment administered or ordered"
-                     },
-                     {
-                       "code": "iN3eb",
-                       "display": "Physical therapy - minutes treatment administered or ordered"
-                     }
-                   ],
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -13181,32 +11785,14 @@
              },
              {
                "type": "group",
-               "code": [
-                 {
-                   "code": "iN3h",
-                   "display": "f. Psychological Therapy"
-                 },
-                 {
-                   "code": "iN3e",
-                   "display": "a. Physical Therapy"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iN3h",
                "text": "f. Psychological Therapy",
                "item": [
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3hc",
-                       "display": "Psychological therapy - days treatment scheduled"
-                     },
-                     {
-                       "code": "iN3ec",
-                       "display": "Physical therapy - days treatment scheduled"
-                     }
-                   ],
+                  
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -13219,32 +11805,14 @@
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3ha",
-                       "display": "Psychological therapy - days treatment administered"
-                     },
-                     {
-                       "code": "iN3ea",
-                       "display": "Physical therapy - days treatment administered"
-                     }
-                   ],
+                  
                    "required": false,
                    "linkId": "iN3ha",
                    "text": "Psychological therapy - days treatment administered"
                  },
                  {
                    "type": "integer",
-                   "code": [
-                     {
-                       "code": "iN3hb",
-                       "display": "Psychological therapy - minutes treatment administered or ordered"
-                     },
-                     {
-                       "code": "iN3eb",
-                       "display": "Physical therapy - minutes treatment administered or ordered"
-                     }
-                   ],
+                   
                    "extension": [
                      {
                        "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -13266,12 +11834,7 @@
            "item": [
              {
                "type": "integer",
-               "code": [
-                 {
-                   "code": "iN5a",
-                   "display": "a. In-patient acute care hospital with overnight stay"
-                 }
-               ],
+              
                "required": false,
                "linkId": "iN5a",
                "text": "a. In-patient acute care hospital with overnight stay",
@@ -13316,12 +11879,7 @@
          },
          {
            "type": "integer",
-           "code": [
-             {
-               "code": "iN8",
-               "display": "Physician orders"
-             }
-           ],
+          
            "required": false,
            "linkId": "iN8",
            "text": "Physician orders"
@@ -13335,12 +11893,7 @@
            "item": [
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iN6a",
-                   "display": "a. Full bed rails on all open sides of bed"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
@@ -13754,16 +12307,7 @@
              },
              {
                "type": "choice",
-               "code": [
-                 {
-                   "code": "iO2i",
-                   "display": "g. Advance directives for comfort measures only"
-                 },
-                 {
-                   "code": "iO2a",
-                   "display": "a. Advance directives for not resuscitating"
-                 }
-               ],
+              
                "extension": [
                  {
                    "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
